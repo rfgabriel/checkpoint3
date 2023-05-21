@@ -21,7 +21,7 @@ Para isso, desenvolvemos o código no arquivo main.py, e o sketch em sketch-ardu
 
 # Python
 
-No main.py, o usuário precisa definir a porta serial correta na linha 9 para a comunicação com o Arduino (https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) e definir se ele usará o programa para uma gravação (neste caso, passar o endereço completo do vídeo como valor na linha 57) ou se usará um vídeo ao vivo, como uma webcam (neste caso, é necessário que o usuário descubra qual valor está atribuído para sua câmera, comumamente o valor é 0). Códigos .py podem ser facilmente alterados usando qualquer editor de texto.
+No main.py, o usuário precisa definir a porta serial correta na linha 9 para a comunicação com o Arduino (https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) e definir se ele usará o programa para uma gravação (neste caso, passar o endereço completo do vídeo como valor na linha 57) ou se usará um vídeo ao vivo, como uma webcam (neste caso, é necessário que o usuário descubra qual valor está atribuído para sua câmera, comumamente o valor é 0). Códigos .py podem ser facilmente alterados usando qualquer editor de texto. Obs.: Não se esqueça de instalar as bibliotecas necessárias e executar em uma pasta ou environment com acesso às bibliotecas instaladas na sua versão do Python.
 
 Com estas alterações, o programa estará pronto para o uso!
 
